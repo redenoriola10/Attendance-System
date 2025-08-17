@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Register Student</h2>
+    <form id="registerForm">
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" id="middleName" placeholder="Middle Name">
+      <input type="text" id="lastName" placeholder="Last Name" required>
+      <input type="text" id="gradeSection" placeholder="Grade & Section" required>
+      <input type="text" id="adviser" placeholder="Adviser" required>
+      <button type="submit">Register</button>
+    </form>
+    <div id="qrResult"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
